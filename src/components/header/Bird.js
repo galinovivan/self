@@ -1,8 +1,10 @@
+/**
+ * Created by 91178 on 27.05.2017.
+ */
 import React, { Component } from 'react';
 
 
-
-class HeaderBottom extends Component {
+class Bird extends Component {
     render() {
         return (
             <div></div>
@@ -10,4 +12,5 @@ class HeaderBottom extends Component {
     }
 }
 
-export default HeaderBottom;
+
+export default Bird;
