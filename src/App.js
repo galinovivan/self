@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import Header from 'components/header/Header';
+import Sidebar from 'components/sidebar/Sidebar';
 import './App.css';
 
 class App extends Component {
@@ -8,6 +8,8 @@ class App extends Component {
     return (
      <div className="app">
          <Header/>
+         <Sidebar/>
+
      </div>
     );
   }
