@@ -3,9 +3,10 @@
  */
 import React, { Component } from 'react';
 import './Header.css';
-import Birds from "./Birds";
-import MainHeading from "./MainHeading";
-import Cloud from "../decor/Cloud";
+import Birds from "../decor/birds/Birds";
+import MainHeading from "../decor/MainHeading";
+import Cloud from "../decor/cloud/Cloud";
+import Iceberg from "../decor/iceberg/Iceberg";
 
 
 class Header extends Component {
@@ -25,8 +26,14 @@ class Header extends Component {
                         <MainHeading/>
                     </div>
                     <div className="column_4">
-                        <Cloud/>
+                        <Cloud cloudWidth="100"/>
                     </div>
+                    <div className="iceberg">
+                        <Iceberg/>
+                    </div>
+                </div>
+                <div className="header_bottom">
+
                 </div>
             </header>
         )

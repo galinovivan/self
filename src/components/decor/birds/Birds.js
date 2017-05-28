@@ -9,9 +9,9 @@ class Birds extends Component {
     render() {
         return (
             <div className="birds">
-                <Bird/>
-                <Bird/>
-                <Bird/>
+                <Bird birdWidth="50"/>
+                <Bird birdWidth="50"/>
+                <Bird birdWidth="50"/>
             </div>
         )
     }

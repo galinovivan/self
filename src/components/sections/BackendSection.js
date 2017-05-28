@@ -9,7 +9,7 @@ class BackendSection extends Component {
     constructor() {
         super();
         this.state = {
-            'data': []
+            data: []
         }
     }
     render() {
@@ -21,3 +21,6 @@ class BackendSection extends Component {
         )
     }
 }
+
+
+export default BackendSection;
